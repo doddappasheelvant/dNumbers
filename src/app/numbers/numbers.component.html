@@ -1,0 +1,33 @@
+<div class = 'bg_numbers' style="text-align: center; font-family: cursive;">
+  <br><br>
+
+    <label for="startNum">Start Number:</label>
+    <input type="number" name = "startNum" [(ngModel)] = "startNum">
+  
+    <label for="endNum">End Number:</label>
+    <input type="number"   name = "endNum" [(ngModel)] = "endNum">
+  
+    <label for="speed">Speed</label>
+    <input type="number"   name = "speed" [(ngModel)] = "speed">
+    <br><br>
+    <button (click) = "sequenceNumDown()" class="button"> Count Down </button>
+    <button (click) = "sequenceNumUp()" class="button"> Count Up </button>
+    <button (click) = "oddNumbers()" class="button"> Odd Num </button>
+    <button (click) = "evenNumbers()" class="button"> Even Num </button>
+    <button (click) = "primeNumbers()" class="button"> Prime Num </button>
+    <button (click) = "SquareNumbers()" class="button"> Square Num </button>
+    <button (click) = "CubeNumbers()" class="button"> Cube Num </button>
+    <button (click) = "FibbNumbers()" class="button"> Fibb Num </button>
+    <button (click) = "stopSequnce()" class="button"> Stop </button>
+    <br>
+    <label for="timer" id="timerId" name ="timer"> </label>
+    <br><br>
+    <label for="counter" id="cunterId" name ="counter" [ngModel] = "counter" ></label>
+    <br>
+    <label for="textNumber" id="textNumberId" name ="textNumber"></label>
+    <br><br><br>
+    <div class = 'allNums' style="text-align: center; font-family: cursive;">
+      <label for="allNumbers" id="allNumbersId" name ="allNumbers"></label>
+    </div>
+  </div>
+  <router-outlet></router-outlet>

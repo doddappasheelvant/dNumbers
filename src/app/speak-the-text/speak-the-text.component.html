@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div class = 'bg_speak' style="text-align: center; font-family: cursive;">
+        <br><br>
+        <input type="text" name = "txtInput" [(ngModel)] = "txtInput">
+        <button (click) = "Speak()" class="button" id = 'btnSpeakId'> Speak </button>
+        <br>
+        <button (click) = "Numbers_0_to_10()" class="button" id = 'numberCount1'> Numbers 0 to 10 </button>
+        
+        <button (click) = "Numbers_10_to_100()" class="button" id = 'numberCount2'> Numbers 10 to 100 </button>
+        
+        <button (click) = "Numbers_Infinity()" class="button" id = 'numberCount3'> Numbers Infinity </button>
+       
+        <button (click) = "cancelSpeak()" class="button" id = 'cancelSpeak'> Stop </button>
+        
+        <br><br><br>
+        <label for="counter1" id="counterId" name ="counter"></label>
+        <br>
+        <label for="counter" id="counterTextId" name ="counter"></label>
+        <br><br><br><br><br><br><br>
+        <label for="timer" id="timerId" name ="timer"> </label>
+    </div>
+</body>
+</html>

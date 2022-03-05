@@ -1,0 +1,130 @@
+/* You can add global styles to this file, and also import other style files */
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  /*background-image: url("img_girl.jpg"); */
+
+  /* Full height */
+  /*height: 100%;*/
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:skyblue;
+}
+
+h1 {
+  color:rgb(5, 5, 87);   
+  font-size:50px;
+  border: chartreuse ;
+  background-color: #04AA6D;
+  align-content: center;
+  margin: 2px;
+}
+h2 {
+  color:rgb(5, 5, 87);   
+  font-size:50px;
+  border: chartreuse ;
+  background-color: #04AA6D;
+  align-content: center;
+  margin: 2px;
+}
+
+img {
+  background-color:rgb(5, 5, 87);
+
+}
+h2 {
+  font-size:34px;
+}
+
+label  {
+  color:rgb(5, 5, 87);
+  font-size: 20px;
+}
+label[for = "counter"]{
+  font-size: 150px;
+  color: brown;
+  font-weight:bold;
+  font-family:cursive;
+}
+
+label[for = "textNumber"]{
+  font-size: 80px;
+  color:blueviolet;
+  font-weight:lighter;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label[for = "timer"]{
+  color:#666;
+  font-weight:lighter;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+}
+label[for = "allNumbers"]{
+  color:#666;
+  font-weight:lighter;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+}
+div.allNums{
+  max-height: 100px;
+  width: 800px;  
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-left: auto;
+  margin-right: auto;
+}
+p { color : blue}
+
+input[type=number] {
+  padding: 12px 20px;
+  margin: 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 18px;
+}
+input[type=number]:focus {
+  background-color: lightblue;
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  margin: 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 18px;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+.button {
+  padding: 10px 25px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(96, 96, 194);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px rgb(56, 67, 124);
+  margin: 12px;
+}
+
+.button:hover {background-color: rgb(40, 40, 107)}
+
+.button:active {
+  background-color: rgb(96, 96, 194);
+  box-shadow: 0 5px rgb(56, 67, 124);;
+  transform: translateY(4px);
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

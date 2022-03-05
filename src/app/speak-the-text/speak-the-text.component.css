@@ -1,0 +1,20 @@
+.bg_speak {
+    /* The image used */
+    /*background-image: url("img_girl.jpg"); */
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:skyblue;
+  }
+
+  label[for = "counter1"]{
+    font-size: 40px;
+    color: rgb(5, 5, 87);
+    font-weight:bold;
+    font-family:cursive;
+  }
